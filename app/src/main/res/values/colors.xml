@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="accent">#D81B60</color>
+    <color name="colorText">#3d3d3d</color>
+    <color name="colorPink">#ffb8b8</color>
+    <color name="loginBg">#1dd1a1</color>
+    <color name="colorBtnLogin">#10ac84</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="red">#e74c3c</color>
+
+    <!--color list Ustaz-->
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="icon_tint_selected">#fed776</color>
+
+
+</resources>

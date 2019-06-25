@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.setting">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@android:drawable/btn_star"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/colorText"
+            android:text="Favourite Ustaz"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/colorText"
+            android:text="  Manage Profile"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/colorText"
+            android:text="  Change Password"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_notifications_black_24dp"
+            android:drawableTint="@color/colorText"
+            android:text="  Notes"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="266dp" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:drawableTint="@color/colorText"
+            android:text="SignOut"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+</FrameLayout>

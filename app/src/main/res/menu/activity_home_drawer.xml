@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allUstaz"
+            android:icon="@drawable/ic_user"
+            android:title="List Ustaz" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favourite"
+            android:title="Favourite Ustaz" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@android:drawable/ic_lock_lock"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
