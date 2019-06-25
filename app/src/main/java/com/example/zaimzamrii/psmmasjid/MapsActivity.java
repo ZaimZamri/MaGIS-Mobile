@@ -138,7 +138,7 @@ public class MapsActivity extends AppCompatActivity implements
         googleURL.append("&radius=" + ProximityRadius);
         googleURL.append("&type=" + nearbyPlace);
         googleURL.append("&sensor=true");
-        googleURL.append("&key=" + "AIzaSyCyDhZrpkfw67jYztIfuuMlnK5pf0asqF4");
+
 
         Log.d("GoogleMapsActivity", "url = " + googleURL.toString());
 
